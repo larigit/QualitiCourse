@@ -9,3 +9,7 @@
 #
 #### Instalar node: sudo apt install nodejs
 #### Para testar a instalação: node -v
+#
+#### Na pasta raiz, rodar: yarn create react-app frontend-cra 
+#### Entrar em "frontend-cra" (na aplicação que foi criada)
+#### Rodar: yarn start 
