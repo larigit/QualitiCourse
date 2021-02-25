@@ -17,7 +17,6 @@
 ### Eslint:
 #### $ eslint --init
 #### add ao arquivo .eslintrc.js: 
-#### add:
 #### rules: {
 ####    'react/jsx-filename-extension': [
 ####    'error',
