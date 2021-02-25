@@ -8,7 +8,5 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   // 2º argumento: onde a pag vai ser carregada
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-

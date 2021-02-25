@@ -13,3 +13,25 @@
 #### Na pasta raiz, rodar: yarn create react-app frontend-cra 
 #### Entrar em "frontend-cra" (na aplicação que foi criada)
 #### Rodar: yarn start 
+#
+### Eslint:
+#### $ eslint --init
+#### add ao arquivo .eslintrc.js: 
+#### add:
+#### rules: {
+####    'react/jsx-filename-extension': [
+####    'error',
+####    {
+####        extensions: ['.js', '.jsx'],
+####    },
+####    ],
+####    'react/prop-types': 0,
+####    'no-console': 'off',
+####    'no-restricted-syntax': [
+####    'error',
+####    {
+####        selector: "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+####        message: 'Unexpected property on console object was called',
+####    },
+####    ],
+#### },
